@@ -389,7 +389,7 @@
             "display": "655d4b5d0730e2949859a7fbeb3330fe",
             "id": "Projectile",
             "maxPierce": 0.0,
-            "pierce": 425.0,
+            "pierce": 326.0,
             "scale": 1.0,
             "ignoreBlockers": false,
             "usePointCollisionWithBloons": false,
@@ -406,14 +406,14 @@
             "behaviors": [
               {
                 "$type": "Assets.Scripts.Models.Towers.Projectiles.Behaviors.DamageModel, Assembly-CSharp",
-                "damage": 42.0,
+                "damage": 32.4,
                 "maxDamage": 0.0,
                 "distributeToChildren": true,
                 "overrideDistributeBlocker": false,
                 "createPopEffect": true,
                 "immuneBloonProperties": 0,
                 "collisionPass": 0,
-                "CappedDamage": 42.0,
+                "CappedDamage": 32.4,
                 "name": "DamageModel_Projectile_",
                 "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Damage, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
               },
@@ -433,7 +433,7 @@
                   "display": "72288b06ef230b644976478047ff0768",
                   "id": "JuggernautProjectile",
                   "maxPierce": 0.0,
-                  "pierce": 425.0,
+                  "pierce": 326.0,
                   "scale": 1.0,
                   "ignoreBlockers": false,
                   "usePointCollisionWithBloons": false,
@@ -450,14 +450,14 @@
                   "behaviors": [
                     {
                       "$type": "Assets.Scripts.Models.Towers.Projectiles.Behaviors.DamageModel, Assembly-CSharp",
-                      "damage": 42.0,
+                      "damage": 32.4,
                       "maxDamage": 0.0,
                       "distributeToChildren": true,
                       "overrideDistributeBlocker": false,
                       "createPopEffect": true,
                       "immuneBloonProperties": 0,
                       "collisionPass": 0,
-                      "CappedDamage": 42.0,
+                      "CappedDamage": 32.4,
                       "name": "DamageModel_JuggernautProjectile_",
                       "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Damage, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
                     },
@@ -500,7 +500,7 @@
                         "Ceramic"
                       ],
                       "damageMultiplier": 1.0,
-                      "damageAddative": 52.5,
+                      "damageAddative": 42.6,
                       "mustIncludeAllTags": false,
                       "applyOverMaxDamage": false,
                       "collisionPass": 0,
@@ -514,7 +514,7 @@
                         "Boss"
                       ],
                       "damageMultiplier": 0.0,
-                      "damageAddative": 249.200012,
+                      "damageAddative": 172.0,
                       "mustIncludeAllTags": false,
                       "applyOverMaxDamage": false,
                       "collisionPass": 0,
@@ -548,7 +548,7 @@
                         "Elite"
                       ],
                       "damageMultiplier": 1.0,
-                      "damageAddative": 291.2,
+                      "damageAddative": 204.4,
                       "mustIncludeAllTags": false,
                       "applyOverMaxDamage": false,
                       "collisionPass": 0,
@@ -568,7 +568,7 @@
                   "ignoreNonTargetable": false,
                   "ignorePierceExhaustion": false,
                   "saveId": null,
-                  "CappedPierce": 425.0,
+                  "CappedPierce": 326.0,
                   "name": "ProjectileModel_JuggernautProjectile",
                   "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Projectile, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
                 },
@@ -598,7 +598,7 @@
                   "display": "72288b06ef230b644976478047ff0768",
                   "id": "JuggernautProjectile",
                   "maxPierce": 0.0,
-                  "pierce": 425.0,
+                  "pierce": 326.0,
                   "scale": 1.0,
                   "ignoreBlockers": false,
                   "usePointCollisionWithBloons": false,
@@ -615,14 +615,14 @@
                   "behaviors": [
                     {
                       "$type": "Assets.Scripts.Models.Towers.Projectiles.Behaviors.DamageModel, Assembly-CSharp",
-                      "damage": 42.0,
+                      "damage": 32.4,
                       "maxDamage": 0.0,
                       "distributeToChildren": true,
                       "overrideDistributeBlocker": false,
                       "createPopEffect": true,
                       "immuneBloonProperties": 0,
                       "collisionPass": 0,
-                      "CappedDamage": 42.0,
+                      "CappedDamage": 32.4,
                       "name": "DamageModel_JuggernautProjectile_",
                       "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Damage, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
                     },
@@ -665,7 +665,7 @@
                         "Ceramic"
                       ],
                       "damageMultiplier": 1.0,
-                      "damageAddative": 52.5,
+                      "damageAddative": 42.6,
                       "mustIncludeAllTags": false,
                       "applyOverMaxDamage": false,
                       "collisionPass": 0,
@@ -679,7 +679,7 @@
                         "Boss"
                       ],
                       "damageMultiplier": 0.0,
-                      "damageAddative": 249.200012,
+                      "damageAddative": 172.0,
                       "mustIncludeAllTags": false,
                       "applyOverMaxDamage": false,
                       "collisionPass": 0,
@@ -713,7 +713,7 @@
                         "Elite"
                       ],
                       "damageMultiplier": 1.0,
-                      "damageAddative": 291.2,
+                      "damageAddative": 204.4,
                       "mustIncludeAllTags": false,
                       "applyOverMaxDamage": false,
                       "collisionPass": 0,
@@ -733,7 +733,7 @@
                   "ignoreNonTargetable": false,
                   "ignorePierceExhaustion": false,
                   "saveId": null,
-                  "CappedPierce": 425.0,
+                  "CappedPierce": 326.0,
                   "name": "ProjectileModel_JuggernautProjectile",
                   "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Projectile, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
                 },
@@ -844,7 +844,7 @@
                   "Ceramic"
                 ],
                 "damageMultiplier": 1.0,
-                "damageAddative": 52.5,
+                "damageAddative": 42.6,
                 "mustIncludeAllTags": false,
                 "applyOverMaxDamage": false,
                 "collisionPass": 0,
@@ -858,7 +858,7 @@
                   "Boss"
                 ],
                 "damageMultiplier": 0.0,
-                "damageAddative": 249.200012,
+                "damageAddative": 172.0,
                 "mustIncludeAllTags": false,
                 "applyOverMaxDamage": false,
                 "collisionPass": 0,
@@ -892,7 +892,7 @@
                   "Elite"
                 ],
                 "damageMultiplier": 1.0,
-                "damageAddative": 291.2,
+                "damageAddative": 204.4,
                 "mustIncludeAllTags": false,
                 "applyOverMaxDamage": false,
                 "collisionPass": 0,
@@ -912,11 +912,11 @@
             "ignoreNonTargetable": false,
             "ignorePierceExhaustion": false,
             "saveId": null,
-            "CappedPierce": 425.0,
+            "CappedPierce": 326.0,
             "name": "ProjectileModel_Projectile",
             "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Projectile, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
           },
-          "rateFrames": 11,
+          "rateFrames": 12,
           "fireWithoutTarget": false,
           "fireBetweenRounds": false,
           "behaviors": null,
@@ -925,7 +925,7 @@
           "customStartCooldown": 0.0,
           "customStartCooldownFrames": 0,
           "animateOnMainAttack": false,
-          "Rate": 0.186104223,
+          "Rate": 0.205761328,
           "name": "WeaponModel_Weapon",
           "ImplementationType": "Assets.Scripts.Simulation.Towers.Weapons.Weapon, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
         }
@@ -1518,7 +1518,7 @@
             "display": "655d4b5d0730e2949859a7fbeb3330fe",
             "id": "Projectile",
             "maxPierce": 0.0,
-            "pierce": 425.0,
+            "pierce": 326.0,
             "scale": 1.0,
             "ignoreBlockers": false,
             "usePointCollisionWithBloons": false,
@@ -1535,14 +1535,14 @@
             "behaviors": [
               {
                 "$type": "Assets.Scripts.Models.Towers.Projectiles.Behaviors.DamageModel, Assembly-CSharp",
-                "damage": 42.0,
+                "damage": 32.4,
                 "maxDamage": 0.0,
                 "distributeToChildren": true,
                 "overrideDistributeBlocker": false,
                 "createPopEffect": true,
                 "immuneBloonProperties": 0,
                 "collisionPass": 0,
-                "CappedDamage": 42.0,
+                "CappedDamage": 32.4,
                 "name": "DamageModel_Projectile_",
                 "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Damage, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
               },
@@ -1562,7 +1562,7 @@
                   "display": "72288b06ef230b644976478047ff0768",
                   "id": "JuggernautProjectile",
                   "maxPierce": 0.0,
-                  "pierce": 425.0,
+                  "pierce": 326.0,
                   "scale": 1.0,
                   "ignoreBlockers": false,
                   "usePointCollisionWithBloons": false,
@@ -1579,14 +1579,14 @@
                   "behaviors": [
                     {
                       "$type": "Assets.Scripts.Models.Towers.Projectiles.Behaviors.DamageModel, Assembly-CSharp",
-                      "damage": 42.0,
+                      "damage": 32.4,
                       "maxDamage": 0.0,
                       "distributeToChildren": true,
                       "overrideDistributeBlocker": false,
                       "createPopEffect": true,
                       "immuneBloonProperties": 0,
                       "collisionPass": 0,
-                      "CappedDamage": 42.0,
+                      "CappedDamage": 32.4,
                       "name": "DamageModel_JuggernautProjectile_",
                       "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Damage, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
                     },
@@ -1629,7 +1629,7 @@
                         "Ceramic"
                       ],
                       "damageMultiplier": 1.0,
-                      "damageAddative": 52.5,
+                      "damageAddative": 42.6,
                       "mustIncludeAllTags": false,
                       "applyOverMaxDamage": false,
                       "collisionPass": 0,
@@ -1643,7 +1643,7 @@
                         "Boss"
                       ],
                       "damageMultiplier": 0.0,
-                      "damageAddative": 249.200012,
+                      "damageAddative": 172.0,
                       "mustIncludeAllTags": false,
                       "applyOverMaxDamage": false,
                       "collisionPass": 0,
@@ -1677,7 +1677,7 @@
                         "Elite"
                       ],
                       "damageMultiplier": 1.0,
-                      "damageAddative": 291.2,
+                      "damageAddative": 204.4,
                       "mustIncludeAllTags": false,
                       "applyOverMaxDamage": false,
                       "collisionPass": 0,
@@ -1697,7 +1697,7 @@
                   "ignoreNonTargetable": false,
                   "ignorePierceExhaustion": false,
                   "saveId": null,
-                  "CappedPierce": 425.0,
+                  "CappedPierce": 326.0,
                   "name": "ProjectileModel_JuggernautProjectile",
                   "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Projectile, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
                 },
@@ -1727,7 +1727,7 @@
                   "display": "72288b06ef230b644976478047ff0768",
                   "id": "JuggernautProjectile",
                   "maxPierce": 0.0,
-                  "pierce": 425.0,
+                  "pierce": 326.0,
                   "scale": 1.0,
                   "ignoreBlockers": false,
                   "usePointCollisionWithBloons": false,
@@ -1744,14 +1744,14 @@
                   "behaviors": [
                     {
                       "$type": "Assets.Scripts.Models.Towers.Projectiles.Behaviors.DamageModel, Assembly-CSharp",
-                      "damage": 42.0,
+                      "damage": 32.4,
                       "maxDamage": 0.0,
                       "distributeToChildren": true,
                       "overrideDistributeBlocker": false,
                       "createPopEffect": true,
                       "immuneBloonProperties": 0,
                       "collisionPass": 0,
-                      "CappedDamage": 42.0,
+                      "CappedDamage": 32.4,
                       "name": "DamageModel_JuggernautProjectile_",
                       "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Damage, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
                     },
@@ -1794,7 +1794,7 @@
                         "Ceramic"
                       ],
                       "damageMultiplier": 1.0,
-                      "damageAddative": 52.5,
+                      "damageAddative": 42.6,
                       "mustIncludeAllTags": false,
                       "applyOverMaxDamage": false,
                       "collisionPass": 0,
@@ -1808,7 +1808,7 @@
                         "Boss"
                       ],
                       "damageMultiplier": 0.0,
-                      "damageAddative": 249.200012,
+                      "damageAddative": 172.0,
                       "mustIncludeAllTags": false,
                       "applyOverMaxDamage": false,
                       "collisionPass": 0,
@@ -1842,7 +1842,7 @@
                         "Elite"
                       ],
                       "damageMultiplier": 1.0,
-                      "damageAddative": 291.2,
+                      "damageAddative": 204.4,
                       "mustIncludeAllTags": false,
                       "applyOverMaxDamage": false,
                       "collisionPass": 0,
@@ -1862,7 +1862,7 @@
                   "ignoreNonTargetable": false,
                   "ignorePierceExhaustion": false,
                   "saveId": null,
-                  "CappedPierce": 425.0,
+                  "CappedPierce": 326.0,
                   "name": "ProjectileModel_JuggernautProjectile",
                   "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Projectile, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
                 },
@@ -1973,7 +1973,7 @@
                   "Ceramic"
                 ],
                 "damageMultiplier": 1.0,
-                "damageAddative": 52.5,
+                "damageAddative": 42.6,
                 "mustIncludeAllTags": false,
                 "applyOverMaxDamage": false,
                 "collisionPass": 0,
@@ -1987,7 +1987,7 @@
                   "Boss"
                 ],
                 "damageMultiplier": 0.0,
-                "damageAddative": 249.200012,
+                "damageAddative": 172.0,
                 "mustIncludeAllTags": false,
                 "applyOverMaxDamage": false,
                 "collisionPass": 0,
@@ -2021,7 +2021,7 @@
                   "Elite"
                 ],
                 "damageMultiplier": 1.0,
-                "damageAddative": 291.2,
+                "damageAddative": 204.4,
                 "mustIncludeAllTags": false,
                 "applyOverMaxDamage": false,
                 "collisionPass": 0,
@@ -2041,11 +2041,11 @@
             "ignoreNonTargetable": false,
             "ignorePierceExhaustion": false,
             "saveId": null,
-            "CappedPierce": 425.0,
+            "CappedPierce": 326.0,
             "name": "ProjectileModel_Projectile",
             "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Projectile, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
           },
-          "rateFrames": 11,
+          "rateFrames": 12,
           "fireWithoutTarget": false,
           "fireBetweenRounds": false,
           "behaviors": null,
@@ -2054,7 +2054,7 @@
           "customStartCooldown": 0.0,
           "customStartCooldownFrames": 0,
           "animateOnMainAttack": false,
-          "Rate": 0.186104223,
+          "Rate": 0.205761328,
           "name": "WeaponModel_Weapon",
           "ImplementationType": "Assets.Scripts.Simulation.Towers.Weapons.Weapon, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
         }
@@ -2647,7 +2647,7 @@
             "display": "655d4b5d0730e2949859a7fbeb3330fe",
             "id": "Projectile",
             "maxPierce": 0.0,
-            "pierce": 425.0,
+            "pierce": 326.0,
             "scale": 1.0,
             "ignoreBlockers": false,
             "usePointCollisionWithBloons": false,
@@ -2664,14 +2664,14 @@
             "behaviors": [
               {
                 "$type": "Assets.Scripts.Models.Towers.Projectiles.Behaviors.DamageModel, Assembly-CSharp",
-                "damage": 42.0,
+                "damage": 32.4,
                 "maxDamage": 0.0,
                 "distributeToChildren": true,
                 "overrideDistributeBlocker": false,
                 "createPopEffect": true,
                 "immuneBloonProperties": 0,
                 "collisionPass": 0,
-                "CappedDamage": 42.0,
+                "CappedDamage": 32.4,
                 "name": "DamageModel_Projectile_",
                 "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Damage, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
               },
@@ -2691,7 +2691,7 @@
                   "display": "72288b06ef230b644976478047ff0768",
                   "id": "JuggernautProjectile",
                   "maxPierce": 0.0,
-                  "pierce": 425.0,
+                  "pierce": 326.0,
                   "scale": 1.0,
                   "ignoreBlockers": false,
                   "usePointCollisionWithBloons": false,
@@ -2708,14 +2708,14 @@
                   "behaviors": [
                     {
                       "$type": "Assets.Scripts.Models.Towers.Projectiles.Behaviors.DamageModel, Assembly-CSharp",
-                      "damage": 42.0,
+                      "damage": 32.4,
                       "maxDamage": 0.0,
                       "distributeToChildren": true,
                       "overrideDistributeBlocker": false,
                       "createPopEffect": true,
                       "immuneBloonProperties": 0,
                       "collisionPass": 0,
-                      "CappedDamage": 42.0,
+                      "CappedDamage": 32.4,
                       "name": "DamageModel_JuggernautProjectile_",
                       "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Damage, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
                     },
@@ -2758,7 +2758,7 @@
                         "Ceramic"
                       ],
                       "damageMultiplier": 1.0,
-                      "damageAddative": 52.5,
+                      "damageAddative": 42.6,
                       "mustIncludeAllTags": false,
                       "applyOverMaxDamage": false,
                       "collisionPass": 0,
@@ -2772,7 +2772,7 @@
                         "Boss"
                       ],
                       "damageMultiplier": 0.0,
-                      "damageAddative": 249.200012,
+                      "damageAddative": 172.0,
                       "mustIncludeAllTags": false,
                       "applyOverMaxDamage": false,
                       "collisionPass": 0,
@@ -2806,7 +2806,7 @@
                         "Elite"
                       ],
                       "damageMultiplier": 1.0,
-                      "damageAddative": 291.2,
+                      "damageAddative": 204.4,
                       "mustIncludeAllTags": false,
                       "applyOverMaxDamage": false,
                       "collisionPass": 0,
@@ -2826,7 +2826,7 @@
                   "ignoreNonTargetable": false,
                   "ignorePierceExhaustion": false,
                   "saveId": null,
-                  "CappedPierce": 425.0,
+                  "CappedPierce": 326.0,
                   "name": "ProjectileModel_JuggernautProjectile",
                   "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Projectile, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
                 },
@@ -2856,7 +2856,7 @@
                   "display": "72288b06ef230b644976478047ff0768",
                   "id": "JuggernautProjectile",
                   "maxPierce": 0.0,
-                  "pierce": 425.0,
+                  "pierce": 326.0,
                   "scale": 1.0,
                   "ignoreBlockers": false,
                   "usePointCollisionWithBloons": false,
@@ -2873,14 +2873,14 @@
                   "behaviors": [
                     {
                       "$type": "Assets.Scripts.Models.Towers.Projectiles.Behaviors.DamageModel, Assembly-CSharp",
-                      "damage": 42.0,
+                      "damage": 32.4,
                       "maxDamage": 0.0,
                       "distributeToChildren": true,
                       "overrideDistributeBlocker": false,
                       "createPopEffect": true,
                       "immuneBloonProperties": 0,
                       "collisionPass": 0,
-                      "CappedDamage": 42.0,
+                      "CappedDamage": 32.4,
                       "name": "DamageModel_JuggernautProjectile_",
                       "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Damage, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
                     },
@@ -2923,7 +2923,7 @@
                         "Ceramic"
                       ],
                       "damageMultiplier": 1.0,
-                      "damageAddative": 52.5,
+                      "damageAddative": 42.6,
                       "mustIncludeAllTags": false,
                       "applyOverMaxDamage": false,
                       "collisionPass": 0,
@@ -2937,7 +2937,7 @@
                         "Boss"
                       ],
                       "damageMultiplier": 0.0,
-                      "damageAddative": 249.200012,
+                      "damageAddative": 172.0,
                       "mustIncludeAllTags": false,
                       "applyOverMaxDamage": false,
                       "collisionPass": 0,
@@ -2971,7 +2971,7 @@
                         "Elite"
                       ],
                       "damageMultiplier": 1.0,
-                      "damageAddative": 291.2,
+                      "damageAddative": 204.4,
                       "mustIncludeAllTags": false,
                       "applyOverMaxDamage": false,
                       "collisionPass": 0,
@@ -2991,7 +2991,7 @@
                   "ignoreNonTargetable": false,
                   "ignorePierceExhaustion": false,
                   "saveId": null,
-                  "CappedPierce": 425.0,
+                  "CappedPierce": 326.0,
                   "name": "ProjectileModel_JuggernautProjectile",
                   "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Projectile, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
                 },
@@ -3102,7 +3102,7 @@
                   "Ceramic"
                 ],
                 "damageMultiplier": 1.0,
-                "damageAddative": 52.5,
+                "damageAddative": 42.6,
                 "mustIncludeAllTags": false,
                 "applyOverMaxDamage": false,
                 "collisionPass": 0,
@@ -3116,7 +3116,7 @@
                   "Boss"
                 ],
                 "damageMultiplier": 0.0,
-                "damageAddative": 249.200012,
+                "damageAddative": 172.0,
                 "mustIncludeAllTags": false,
                 "applyOverMaxDamage": false,
                 "collisionPass": 0,
@@ -3150,7 +3150,7 @@
                   "Elite"
                 ],
                 "damageMultiplier": 1.0,
-                "damageAddative": 291.2,
+                "damageAddative": 204.4,
                 "mustIncludeAllTags": false,
                 "applyOverMaxDamage": false,
                 "collisionPass": 0,
@@ -3170,11 +3170,11 @@
             "ignoreNonTargetable": false,
             "ignorePierceExhaustion": false,
             "saveId": null,
-            "CappedPierce": 425.0,
+            "CappedPierce": 326.0,
             "name": "ProjectileModel_Projectile",
             "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Projectile, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
           },
-          "rateFrames": 11,
+          "rateFrames": 12,
           "fireWithoutTarget": false,
           "fireBetweenRounds": false,
           "behaviors": null,
@@ -3183,7 +3183,7 @@
           "customStartCooldown": 0.0,
           "customStartCooldownFrames": 0,
           "animateOnMainAttack": false,
-          "Rate": 0.186104223,
+          "Rate": 0.205761328,
           "name": "WeaponModel_Weapon",
           "ImplementationType": "Assets.Scripts.Simulation.Towers.Weapons.Weapon, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
         }
