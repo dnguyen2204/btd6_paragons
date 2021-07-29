@@ -1,8 +1,6 @@
 import json
 
 paragonLvls = {
-    'orbitModelPierce': [9999999.0],
-    'mainDotPierce': [1.0],
     'main': {
         'pierce': [100.0],
         'damage': [20.0],
@@ -44,8 +42,6 @@ for i in range(1, 100):
     for behavior in data['behaviors']:
         if behavior['$type'] == 'Assets.Scripts.Models.Towers.Behaviors.Attack.AttackModel, Assembly-CSharp':
             weapons.append(behavior['weapons'][0])
-        elif behavior['$type'] == 'Assets.Scripts.Models.Towers.Behaviors.OrbitModel, Assembly-CSharp':
-            paragonLvls['orbitModelPierce'].append(behavior['projectile']['pierce'])
 
     projectiles = []
     for weapon in weapons:
@@ -67,8 +63,6 @@ for i in range(1, 100):
                 paragonLvls['main']['bossDamage'].append(behavior['damageAddative'])
             elif behavior['tag'] == 'Elite':
                  paragonLvls['main']['eliteDamage'].append(behavior['damageAddative'])
-        elif behavior['$type'] == 'Assets.Scripts.Models.Towers.Projectiles.Behaviors.CreateProjectileOnExhaustFractionModel, Assembly-CSharp':
-            paragonLvls['mainDotPierce'].append(behavior['projectile']['pierce'])
 
     for behavior in projectiles[1]['behaviors']:
         if behavior['$type'] == 'Assets.Scripts.Models.Towers.Projectiles.Behaviors.DamageModel, Assembly-CSharp':
