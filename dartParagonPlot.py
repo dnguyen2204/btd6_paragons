@@ -9,6 +9,7 @@ ceramicDamage = paragonLvls['ceramicDamage']
 bossDamage = paragonLvls['bossDamage']
 eliteDamage = paragonLvls['eliteDamage']
 rate = paragonLvls['rate']
+elitedps = (paragonLvls['damage']+paragonLvls['eliteDamage']) / paragonLvls['rate'] #(damage/attack) / (seconds/attack) = (damage/attack)*(attacks/second) = damage/second 
 paragonLvlsJson.close()
 
 def plot(name, data):
@@ -28,3 +29,4 @@ plot('additional ceramic damage', ceramicDamage)
 plot('additional boss damage', bossDamage)
 plot('additional elite damage', eliteDamage)
 plot('rate', rate)
+plot('elitedps', elitedps)
